@@ -29,3 +29,24 @@ Before running the script, make sure you have:
    ```bash
    git clone https://github.com/LikithBharadwaj24/Amazon_Scraper.git
    cd Amazon_Scraper
+   ```
+
+2. **Install dependencies**  
+   Make sure Python and pip are installed, then run:
+   ```bash
+   pip install playwright
+   playwright install
+   ```
+
+3. **Run the script**
+   ```bash
+   python amazon_scraper.py
+   ```
+   Enter an Amazon.in product URL when prompted.
+
+   **Example:**
+   ```bash
+   https://www.amazon.in/Sony-inches-BRAVIA-Google-K-65S25B/dp/B0D3DW6YQ8
+   ```
+
+---
